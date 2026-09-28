@@ -1,0 +1,15 @@
+1. npm init -y
+2. npm i express mongoose dotenv , jsonwebtoken , bcryptjs , express-validator
+3. npm i -D nodemon
+4. src/app/app.js    // ka code aayga
+5. server.js // ka code aayga
+6. src/config/config.js and /db.js  // code aayaga
+7. now u will create the models
+8. after that u will create the routes
+9. now u have to create the validators for any , register and login has been created
+10. now u have to create the controller for register after that login
+11. now u have to create the token access and refersh token
+12. token will create in src/utils/auth_token.js and use that in register login controllers
+13. install cookie-parser set refresh in cookie and send accesstoken in response
+14. resherToke databse mein save karna hai 
+15. agar refreshToken expire hojaye tho router.post /refresh    
