@@ -17,7 +17,7 @@ const AuthContext = createContext(null);
 // API Configuration
 
 
-const API_URL = "http://localhost:3000/api/auth";
+const API_URL = "https://snitch-ecom-27j6.onrender.com/api/auth";
 
 
 // Auth Provider

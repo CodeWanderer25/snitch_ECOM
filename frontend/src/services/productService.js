@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/products";
+const API_URL = "https://snitch-ecom-27j6.onrender.com/api/products";
 
 export const getMyProducts = async () => {
   const accessToken = localStorage.getItem("accessToken");

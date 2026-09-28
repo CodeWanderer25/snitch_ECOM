@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router";
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/products";
+const API_URL = "https://snitch-ecom-27j6.onrender.com/api/products";
 
 const AVAILABLE_SIZES = ["S", "M", "L", "XL", "XXL"];
 
